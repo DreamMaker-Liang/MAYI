@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="WorkBuddy">
   <diagram id="lfmamba-bw" name="LF-Mamba-Sense-BW">
-    <mxGraphModel dx="2343" dy="1243" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="1260" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="1310" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="1260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="out" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Output" vertex="1">
           <mxGeometry height="40" width="140" x="540" y="1038" as="geometry" />
         </mxCell>
-        <mxCell id="conv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Conv1d" vertex="1">
+        <mxCell id="conv" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Conv1D" vertex="1">
           <mxGeometry height="40" width="140" x="839.5" y="137.5" as="geometry" />
         </mxCell>
         <mxCell id="a4VnYNeWnkHA1bfhs-yz-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="fgate">
@@ -58,10 +58,10 @@
         <mxCell id="silu2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="SiLU" vertex="1">
           <mxGeometry height="40" width="140" x="839.5" y="207.5" as="geometry" />
         </mxCell>
-        <mxCell id="ssmsel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=16;fontStyle=1;roundedPerimeter=1;" value="SSM Selective" vertex="1">
+        <mxCell id="ssmsel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=16;fontStyle=1;roundedPerimeter=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;SSM Selective&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="140" x="839.5" y="277.5" as="geometry" />
         </mxCell>
-        <mxCell id="fgate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=16;fontStyle=1;roundedPerimeter=1;" value="Forget&#xa;Gate" vertex="1">
+        <mxCell id="fgate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=16;fontStyle=1;roundedPerimeter=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Forget&lt;br&gt;Gate&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="110" x="1003.5" y="277.5" as="geometry" />
         </mxCell>
         <mxCell id="mul" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=16;fontStyle=1;" value="×" vertex="1">
@@ -105,7 +105,7 @@
         <mxCell id="pm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Permute" vertex="1">
           <mxGeometry height="40" width="100" x="231" y="193" as="geometry" />
         </mxCell>
-        <mxCell id="cd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Conv1d" vertex="1">
+        <mxCell id="cd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Conv1D" vertex="1">
           <mxGeometry height="40" width="100" x="231" y="263" as="geometry" />
         </mxCell>
         <mxCell id="tp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;roundedPerimeter=1;" value="Transpose" vertex="1">
